@@ -1,0 +1,17 @@
+{
+  "name": "@omniseed/provider-google",
+  "version": "0.1.0-alpha.1",
+  "description": "Google Provider for independently provisioned Gemini inference bindings",
+  "private": true,
+  "scripts": {
+    "test": "python -m unittest discover -s test -p 'test_*.py' -v"
+  },
+  "files": [
+    "provider-package.json",
+    "provider-configuration.schema.json",
+    "provider/",
+    "evidence/",
+    "README.md"
+  ],
+  "license": "Apache-2.0"
+}
